@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OGO TaxiRider</string>
+
+    <string name="api_key">***************************************************</string>
+
+    <string name="continues">يكمل</string>
+    <string name="enter_your_phone">أدخل هاتفك</string>
+    <string name="password">كلمة المرور</string>
+    <string name="sms_code">رمز الرسائل القصيرة</string>
+    <string name="mobile">رقم الهاتف المحمول</string>
+    <string name="first_name">الاسم الأول</string>
+    <string name="last_name">الاسم الأول</string>
+    <string name="email">بريد إلكتروني</string>
+    <string name="sing_up">اشتراك</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="address">تبوك</string>
+    <string name="upload_identity">تحميل الهوية</string>
+    <string name="upload_front">تحميل الجبهة</string>
+    <string name="upload_back">تحميل مرة أخرى</string>
+    <string name="upload_license">تحميل الرخصة</string>
+    <string name="profile">الملف الشخصي</string>
+    <string name="edit">تعديل</string>
+    <string name="entervehicalnumber">أدخل رقم السيارة</string>
+    <string name="selectimage">اختر صورة</string>
+    <string name="app_notification_description">التسليم عبر الإنترنت</string>
+    <string name="accept">قبول</string>
+    <string name="trip_start">بداية الكرشة</string>
+    <string name="reject">رفض</string>
+    <string name="tripe_cancel">كروش إلغاء</string>
+    <string name="tripe_end">نهاية الكرشة</string>
+    <string name="reach_locations">الوصول إلى المواقع</string>
+    <string name="trip_cancle_reason">سبب إلغاء الرحلة</string>
+    <string name="tripe_code">رمز الكرشة</string>
+    <string name="logout">تسجيل خروج</string>
+    <string name="mypayout">مدفوعاتي</string>
+    <string name="total_earning">مجموع الأرباح</string>
+    <string name="withdraw_limit">حد السحب</string>
+    <string name="submit">يُقدِّم</string>
+    <string name="enter_your_amount">أدخل المبلغ الخاص بك</string>
+    <string name="home">بيت</string>
+    <string name="pending">قيد الانتظار</string>
+    <string name="completed">مكتمل</string>
+    <string name="withdraw">انسحب</string>
+    <string name="onlie">عبر الانترنت</string>
+    <string name="one_a">انضم من أي مكان وابدأ في الكسب على الفور</string>
+    <string name="gender">جنس تذكير أو تأنيث</string>
+    <string name="vehicle_number">عدد المركبات</string>
+    <string name="did_not_receive_the_code">لم يصلك الرمز؟</string>
+    <string name="total_payable">إجمالي المدفوعات</string>
+    <string name="payment">قسط</string>
+    <string name="otp">كلمة السر لمرة واحدة</string>
+    <string name="tripes">رحلات</string>
+    <string name="payout_id">معرف الدفع</string>
+    <string name="amount">مقدار</string>
+    <string name="pay_by">ادفع عن طريق</string>
+    <string name="request_date">تاريخ الطلب</string>
+    <string name="this_id_is_reject_please_upload_proper_doc">تم رفض هذا المعرف الرجاء تحميل المستند المناسب.</string>
+    <string name="male">ذكر</string>
+    <string name="female">أنثى</string>
+    <string name="welcome_friend_enter">مرحبًا يا صديق أدخل التفاصيل الخاصة بك حتى تبدأ في حجز سيارة أجرة</string>
+    <string name="enter_bank_account_number">Enter Bank Account Number</string>
+    <string name="enter_account_name">Enter Account Name</string>
+    <string name="enter_ifsc_code">Enter ifsc code</string>
+    <string name="enter_upi">Enter upi</string>
+    <string name="paypal">Paypal</string>
+</resources>

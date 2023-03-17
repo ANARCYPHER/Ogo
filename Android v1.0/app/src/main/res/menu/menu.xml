@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:title="@string/home"
+        android:icon="@drawable/ic_home"/>
+    <item
+        android:id="@+id/panding"
+        android:title="@string/pending"
+        android:icon="@drawable/ic_pending"/>
+    <item
+        android:id="@+id/completed"
+        android:title="@string/completed"
+        android:icon="@drawable/ic_complete"/>
+    <item
+        android:id="@+id/withdraw"
+        android:title="@string/withdraw"
+        android:icon="@drawable/ic_wallet"/>
+    <item
+        android:id="@+id/profile"
+        android:title="@string/profile"
+        android:icon="@drawable/ic_profile"/>
+</menu>

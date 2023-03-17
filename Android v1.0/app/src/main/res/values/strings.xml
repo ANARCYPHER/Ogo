@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">OGO TaxiRider</string>
+
+    <string name="api_key">***************************************************</string>
+
+    <string name="continues">Continue</string>
+    <string name="enter_your_phone">Enter your phone</string>
+    <string name="password">Password</string>
+    <string name="sms_code">SMS Code</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="sing_up">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="address">Address</string>
+    <string name="upload_identity">Upload identity</string>
+    <string name="upload_front">Upload front</string>
+    <string name="upload_back">Upload back</string>
+    <string name="upload_license">Upload License</string>
+    <string name="profile">Profile</string>
+    <string name="edit">Edit</string>
+    <string name="entervehicalnumber">Enter Vehicle Number</string>
+    <string name="selectimage">Select image</string>
+    <string name="app_notification_description">Online Deliveryboy</string>
+    <string name="accept">Accept</string>
+    <string name="trip_start">Tripe Start</string>
+    <string name="reject">Reject</string>
+    <string name="tripe_cancel">Tripe Cancel</string>
+    <string name="tripe_end">Tripe End</string>
+    <string name="reach_locations">Reach locations</string>
+    <string name="trip_cancle_reason">Trip cancle reason</string>
+    <string name="tripe_code">Tripe Code</string>
+    <string name="logout">Logout</string>
+    <string name="mypayout">MyPayout</string>
+    <string name="total_earning">Total Earning</string>
+    <string name="withdraw_limit">withdraw limit</string>
+    <string name="submit">Submit</string>
+    <string name="enter_your_amount">Enter your amount</string>
+    <string name="home">Home</string>
+    <string name="pending">Pending</string>
+    <string name="completed">Completed</string>
+    <string name="withdraw">Withdraw</string>
+    <string name="onlie">online</string>
+    <string name="one_a">Join from anywhere and start earning instantly</string>
+    <string name="gender">Gender</string>
+    <string name="vehicle_number">Vehicle Number</string>
+    <string name="did_not_receive_the_code">Did not receive the code?</string>
+    <string name="total_payable">Total Payable</string>
+    <string name="payment">Payment</string>
+    <string name="otp">OTP</string>
+    <string name="tripes">Tripes</string>
+    <string name="payout_id">payout id</string>
+    <string name="amount">Amount</string>
+    <string name="pay_by">Pay by</string>
+    <string name="request_date">Request Date</string>
+    <string name="this_id_is_reject_please_upload_proper_doc">This ID is reject please upload proper doc.</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="welcome_friend_enter">Welcome friend enter your details so lat get started in booking taxi</string>
+    <string name="enter_bank_account_number">Enter Bank Account Number</string>
+    <string name="enter_account_name">Enter Account Name</string>
+    <string name="enter_ifsc_code">Enter ifsc code</string>
+    <string name="enter_upi">Enter upi</string>
+    <string name="paypal">Paypal</string>
+
+</resources>

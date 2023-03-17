@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.cscodetech.urbantaxi.utility.AutoScrollViewPager
+            android:id="@+id/vpPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            tools:ignore="MissingConstraints" />
+
+
+        <com.tbuonomo.viewpagerdotsindicator.DotsIndicator
+            android:id="@+id/flexibleIndicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            app:dotsColor="@color/gray1"
+            app:dotsSize="10dp"
+            app:selectedDotColor="@color/purple_500" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/one_a"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/btn_login"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_button"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/login"
+                android:theme="@style/AppTheme.Button" />
+
+            <TextView
+                android:id="@+id/btn_signup"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_button"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/sing_up"
+                android:theme="@style/AppTheme.Button" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+    </LinearLayout>
+
+
+</LinearLayout>

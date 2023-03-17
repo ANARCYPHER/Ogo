@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="5dp">
+
+        <LinearLayout
+            android:id="@+id/lvl_click"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_tile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/upload_identity"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <View
+                    android:layout_width="20dp"
+                    android:layout_height="1dp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded_input"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/img_frount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/ic_img_dummy" />
+
+                    <TextView
+                        android:id="@+id/txt_frount"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/rounded_input"
+                        android:backgroundTint="#99000000"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/this_id_is_reject_please_upload_proper_doc"
+                        android:textColor="@color/red" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="20dp"
+                    android:layout_height="1dp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded_input"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/img_backend"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_img_dummy" />
+
+                    <TextView
+                        android:id="@+id/txt_backend"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/rounded_input"
+                        android:backgroundTint="#99000000"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/this_id_is_reject_please_upload_proper_doc"
+                        android:textColor="@color/red" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="20dp"
+                    android:layout_height="1dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt_uploadfrount"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="7dp"
+                android:text="status" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
